@@ -394,10 +394,6 @@ img {
 		color: #000000;
 	}
 
-	.description {
-		color: #000000;
-	}
-
 	.city-subtitle {
 		font-size: 15px;
 		line-height: 18px;
@@ -457,6 +453,13 @@ img {
   line-height: 36px;
   color: #ffffff;
 }
+
+@media (max-width: 360px) {
+	.description {
+		color: #000000;
+	}
+}
+
 
 .top-right {
   text-align: right;
