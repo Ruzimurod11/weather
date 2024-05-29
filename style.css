@@ -1,6 +1,6 @@
 body {
   background: #0a081f;
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik";
   margin: 0;
   padding: 0;
 }
@@ -52,19 +52,11 @@ img {
 		width: 290px;
 		transform: translateX(-200%);
 		background: #8781c5;
-		border-radius: 4px;
-		height: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		transition: transform 0.3s ease-in-out;
-		z-index: 9;
 	}
 
 	.form-group {
 		display: flex;
 		padding: 0 10px;
-		/* justify-content: space-between; */
 		flex-direction: column;
 		gap: 10px;
 	}
@@ -381,18 +373,20 @@ img {
 	.city-title {
 		font-size: 30px;
 		line-height: 117%;
-
+		color: #ff7b47;
 	}
 
 	.city-info__title {
 		font-weight: 500;
 		font-size: 37px;
+		color: #ff7b47;
 		background: #8781c5;
 	}
 
 	.city-subtitle {
 		font-size: 15px;
 		line-height: 18px;
+		color: #ff7b47;
 		background: #8781c5;
 	}
 }
@@ -445,7 +439,7 @@ img {
 
 @media (max-width: 360px) {
 	.description {
-		color: #000000;
+		color: #ff7b47;
 		background: #8781c5;
 	}
 }
