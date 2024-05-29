@@ -348,7 +348,7 @@ img {
 .city-subtitle {
   font-size: 15px;
   line-height: 18px;
-  color: #333333;
+  color: #ffffff;
 }
 
 .city-title {
@@ -390,6 +390,12 @@ img {
 	.city-info__title {
 		font-weight: 500;
 		font-size: 37px;
+	}
+
+	.city-subtitle {
+		font-size: 15px;
+		line-height: 18px;
+		color: #333333;
 	}
 }
 
