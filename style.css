@@ -40,6 +40,7 @@ img {
 		flex: 0 0 100%;
 		flex-basis: 240px;
 		width: 290px;
+		background: hsl(0, 0%, 8%);
 	}
 
 	.form {
