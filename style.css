@@ -23,7 +23,6 @@ img {
 } 
 
 @media (max-width: 490px) {
-
 	#app {
 		display: flex;
 		flex: 0 0 100%;
@@ -40,7 +39,6 @@ img {
 		flex: 0 0 100%;
 		flex-basis: 240px;
 		width: 290px;
-		background: hsl(0, 0%, 8%);
 	}
 
 	.form {
@@ -164,7 +162,6 @@ img {
 @media (max-width: 490px) {
 	.popup {
 		width: 360px;
-		/* position: relative; */
 	}
 
 	.popup-close {
@@ -201,8 +198,6 @@ img {
 }
 
 @media (max-width: 360px) {
-
-
 	.popup-close {
 		position: absolute;
 		top: 20px;
@@ -386,19 +381,19 @@ img {
 	.city-title {
 		font-size: 30px;
 		line-height: 117%;
-		color: #0b054b;
+
 	}
 
 	.city-info__title {
 		font-weight: 500;
 		font-size: 37px;
-		color: #000000;
+		background: #8781c5;
 	}
 
 	.city-subtitle {
 		font-size: 15px;
 		line-height: 18px;
-		color: #000000;
+		background: #8781c5;
 	}
 }
 
@@ -414,16 +409,9 @@ img {
 	}
 
 	.city-title {
-		background: #8781c5;
-		border-radius: 8px;
 		font-weight: 700;
 		font-size: 24px;
 		line-height: 117%;
-		color: #ffffff;
-		padding: 1px 8px;
-		margin-top: 6px;
-		cursor: pointer;
-		width: max-content;
 	}
 
 	.property-icon {
@@ -458,6 +446,7 @@ img {
 @media (max-width: 360px) {
 	.description {
 		color: #000000;
+		background: #8781c5;
 	}
 }
 
